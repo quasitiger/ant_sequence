@@ -2,8 +2,6 @@ import unittest
 import list_run
 import str_run
 
-
-
 class FunctionTest(unittest.TestCase):
     def test_list_run(self):
         median_value = list_run.run(5)
@@ -18,10 +16,6 @@ class FunctionTest(unittest.TestCase):
 
         median_value = str_run.run(8)
         self.assertEqual(median_value,'21')
-
-
-
-
 
 if __name__ == '__main__':
     unittest.main()
