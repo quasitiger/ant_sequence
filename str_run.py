@@ -44,6 +44,9 @@ def run(_number):
     median_value = int(len(after_sec)/2)-1
     print(f"and median value is { after_sec[ median_value:median_value+2]}")
 
+    # 테스트를 위한 리턴
+    return after_sec[ median_value:median_value+2]
+
 
 if __name__ == "__main__":
     args = arg_parse()
