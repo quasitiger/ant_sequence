@@ -47,6 +47,9 @@ def run(_number):
     median_value = int(len(new_queue)/2)-1
     print(f"and median value is { new_queue[ median_value:median_value+2]}")
 
+    # 테스트를 위한 리턴
+    return new_queue[ median_value:median_value+2]
+
 
 if __name__ == "__main__":
     args = arg_parse()
